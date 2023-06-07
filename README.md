@@ -9,7 +9,7 @@ Demo project that shows how to connect a Kubernetes cluster to an external Hashi
 - skaffold
 - terraform
 
-## Run it (2 times)
+## Run it (TODO: fix 2 times run)
 
 ```sh
 $ sh run.sh
