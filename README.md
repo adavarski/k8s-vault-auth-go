@@ -250,6 +250,14 @@ You can also run [skaffold run --tail] to get the logs
 ^C
 
 ```
+Screenshots:
+
+<img src="./pictures/vault-secrets-kv.png?raw=true" width="800">
+
+<img src="./pictures/vault-policies-developer.png?raw=true" width="800">
+
+<img src="./pictures/vault-acess-kubernetes-role.png?raw=true" width="800">
+
 
 Ref:
 - https://support.hashicorp.com/hc/en-us/articles/4404389946387-Kubernetes-auth-method-Permission-Denied-error
