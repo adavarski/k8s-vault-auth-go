@@ -251,6 +251,13 @@ You can also run [skaffold run --tail] to get the logs
 
 ```
 Screenshots:
+```
+$ kubectl logs vault-7744fbcbf6-hhpm4|grep Root
+Root Token: vault-kubernetes-auth
+$ kubectl port-forward service/vault 8200:8200
+Forwarding from [::1]:8200 -> 8200
+---> http://localhost:8200/
+```
 
 <img src="./pictures/vault-secrets-kv.png?raw=true" width="800">
 
