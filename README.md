@@ -14,4 +14,6 @@ Demo project that shows how to connect a Kubernetes cluster to an external Hashi
 ```sh
 $ sh run.sh
 ```
-Ref: https://support.hashicorp.com/hc/en-us/articles/4404389946387-Kubernetes-auth-method-Permission-Denied-error
+Ref:
+- https://support.hashicorp.com/hc/en-us/articles/4404389946387-Kubernetes-auth-method-Permission-Denied-error
+- https://www.twilio.com/blog/manage-go-application-secrets-using-vault
