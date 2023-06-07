@@ -1,7 +1,7 @@
-# vault-kubernetes-auth-go
+## vault-kubernetes-auth-go
 Demo project that shows how to connect a Kubernetes cluster to an external Hashicorp Vault instance
 
-## Requirements
+### Requirements
 
 - Docker
 - kubectl
@@ -9,7 +9,7 @@ Demo project that shows how to connect a Kubernetes cluster to an external Hashi
 - skaffold
 - terraform
 
-## Run it (TODO: fix 2 times run)
+### Run it (TODO: fix 2 times run)
 
 ```sh
 $ sh run.sh
@@ -250,7 +250,7 @@ You can also run [skaffold run --tail] to get the logs
 ^C
 
 ```
-Screenshots:
+### Screenshots:
 ```
 $ kubectl logs vault-7744fbcbf6-hhpm4|grep Root
 Root Token: vault-kubernetes-auth
