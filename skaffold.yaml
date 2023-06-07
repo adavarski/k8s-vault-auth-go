@@ -1,0 +1,12 @@
+apiVersion: skaffold/v4beta1
+kind: Config
+metadata:
+  name: vault-auth
+build:
+  artifacts:
+  - image: davarski/vault-kubernetes-auth
+    docker:
+      dockerfile: Dockerfile
+manifests:
+  rawYaml:
+    - skaffold/deployment.yaml
